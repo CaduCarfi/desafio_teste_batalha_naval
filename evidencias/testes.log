@@ -1,0 +1,88 @@
+TAP version 13
+# Subtest: CT01 - frota possui os quatro navios de tamanhos exigidos
+ok 1 - CT01 - frota possui os quatro navios de tamanhos exigidos
+  ---
+  duration_ms: 2.8951
+  type: 'test'
+  ...
+# Subtest: CT02 - aceita posicionamento horizontal na ultima coluna permitida
+ok 2 - CT02 - aceita posicionamento horizontal na ultima coluna permitida
+  ---
+  duration_ms: 0.1836
+  type: 'test'
+  ...
+# Subtest: CT03 - aceita posicionamento vertical na ultima linha permitida
+ok 3 - CT03 - aceita posicionamento vertical na ultima linha permitida
+  ---
+  duration_ms: 0.1446
+  type: 'test'
+  ...
+# Subtest: CT04 - rejeita navios fora do tabuleiro sem posicionar parcialmente
+ok 4 - CT04 - rejeita navios fora do tabuleiro sem posicionar parcialmente
+  ---
+  duration_ms: 0.6021
+  type: 'test'
+  ...
+# Subtest: CT05 - rejeita sobreposicao, duplicidade, tipo e direcao invalidos
+ok 5 - CT05 - rejeita sobreposicao, duplicidade, tipo e direcao invalidos
+  ---
+  duration_ms: 0.4476
+  type: 'test'
+  ...
+# Subtest: CT06 - tiros distinguem agua, acerto e afundamento
+ok 6 - CT06 - tiros distinguem agua, acerto e afundamento
+  ---
+  duration_ms: 0.4513
+  type: 'test'
+  ...
+# Subtest: CT07 - rejeita tiros repetidos e coordenadas invalidas
+ok 7 - CT07 - rejeita tiros repetidos e coordenadas invalidas
+  ---
+  duration_ms: 0.364
+  type: 'test'
+  ...
+# Subtest: CT08 - exige frota completa e impede reposicionamento apos tiro
+ok 8 - CT08 - exige frota completa e impede reposicionamento apos tiro
+  ---
+  duration_ms: 0.2325
+  type: 'test'
+  ...
+# Subtest: CT09 - destruir as 14 casas encerra a frota
+ok 9 - CT09 - destruir as 14 casas encerra a frota
+  ---
+  duration_ms: 0.2972
+  type: 'test'
+  ...
+# Subtest: CT10 - exige duas frotas prontas, jogador valido e alternancia
+ok 10 - CT10 - exige duas frotas prontas, jogador valido e alternancia
+  ---
+  duration_ms: 0.5897
+  type: 'test'
+  ...
+# Subtest: CT11 - partida completa declara vencedor e bloqueia novos tiros
+ok 11 - CT11 - partida completa declara vencedor e bloqueia novos tiros
+  ---
+  duration_ms: 1.4821
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 164.6109
+# start of coverage report
+# -----------------------------------------------------------------------
+# file                   | line % | branch % | funcs % | uncovered lines
+# -----------------------------------------------------------------------
+# src                    |        |          |         | 
+#  batalha-naval.js      | 100.00 |   100.00 |  100.00 | 
+# test                   |        |          |         | 
+#  batalha-naval.test.js | 100.00 |   100.00 |  100.00 | 
+# -----------------------------------------------------------------------
+# all files              | 100.00 |   100.00 |  100.00 | 
+# -----------------------------------------------------------------------
+# end of coverage report
