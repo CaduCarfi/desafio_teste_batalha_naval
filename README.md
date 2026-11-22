@@ -1,6 +1,6 @@
 # desafio_teste_batalha_naval
 
-Autor: **Carlos Eduardo Carfi Silva** (RA 24000663-2, UniCesumar — Engenharia de Software).
+Autor: **Carlos Eduardo Carfi Silva** RA 24000663-2
 
 ---
 
@@ -78,7 +78,3 @@ console.log(frota.atirar(3, 0)); // { resultado: 'acertou', navio: 'destroier' }
 ## Resultado da última execução
 
 Node.js 22.19.0 — **11 de 11 testes passando**, nenhuma falha. Saída integral em [`evidencias/testes.log`](evidencias/testes.log). Cobertura de `src/batalha-naval.js`: 100% (linhas, ramificações e funções).
-
-## Colaborador(es) / entrega
-
-- **Carlos Eduardo Carfi Silva** — RA 24000663-2. Desafio feito individualmente, repositório próprio (`desafio_teste_batalha_naval`), como exige o padrão de nomenclatura da disciplina.
